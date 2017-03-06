@@ -1,3 +1,15 @@
+/* Intent schema
+
+{
+  "intents" : [
+    {
+    	"intent": "GetRonSwansonQuote"
+  	}
+  ]
+}
+
+*/
+
 var http = require('http');
 
 exports.handler = (event, context) => {
